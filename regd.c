@@ -234,7 +234,7 @@ ieee80211_regdomain *ath_world_regdomain(struct ath_regulatory *reg)
 		return &ath_world_regdom_64;
 	case 0x66:
 	case 0x69:
-		return &ath_world_regdom_66_69;
+		return &ath_world_regdom_60_61_62;
 	case 0x67:
 	case 0x68:
 	case 0x6A:
