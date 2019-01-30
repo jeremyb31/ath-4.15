@@ -25,6 +25,7 @@
 MODULE_AUTHOR("Atheros Communications");
 MODULE_DESCRIPTION("Shared library for Atheros wireless LAN cards.");
 MODULE_LICENSE("Dual BSD/GPL");
+MODULE_VERSION("JB1");
 
 struct sk_buff *ath_rxbuf_alloc(struct ath_common *common,
 				u32 len,
